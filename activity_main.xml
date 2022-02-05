@@ -6,12 +6,13 @@ import androidx.activity.compose.setContent
 import androidx.appcompat.app.AppCompatActivity
 import androidx.compose.material.MaterialTheme
 
-
+#define the main class 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
     }
+#create the three button answer options
     button.setOnClickListener {
         Toast.makeText(applicationContext,"CORRECT!",Toast.LENGTH_SHORT).show()
     }
@@ -23,6 +24,7 @@ class MainActivity : AppCompatActivity() {
     button3.setOnClickListener {
         Toast.makeText(applicationContext, "WRONGO!", Toast.LENGTH_SHORT).show()
     }
+#define class that houses the quiz questions
     class MainActivity : AppCompatActivity() {
 
         var questionNo = 0
@@ -46,6 +48,7 @@ class MainActivity : AppCompatActivity() {
             }
 
         }
+#function to get the right answer
 
         fun showToast(answer: Int) {
             if (answer==rightAnswers.get(questionNo)) {
