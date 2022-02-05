@@ -9,13 +9,12 @@ I wrote this software because I am unfamiliar with writing apps, and the Kotlin 
 
 # Development Environment
 
-This siftware was developed entirely with the graphic user interface IntelliJ IDEA
+This software was developed entirely with the graphic user interface IntelliJ IDEA
 
 Kotlin was the primary programming language used for this application.
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
 * [Kotlin—Wikipedia](https://en.wikipedia.org/wiki/Kotlin_(programming_language))
 * [Kotlin Tutorial—Programiz](https://www.programiz.com/kotlin-programming)
 * [Kotlin](https://kotlinlang.org/)
@@ -23,7 +22,6 @@ Kotlin was the primary programming language used for this application.
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
 * Make the program runnable on my GUI
 * Create more/better quiz questions
 * make the app personalizable (Change background colors, etc...)
